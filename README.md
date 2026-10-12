@@ -102,6 +102,3 @@ The code imports **only scikit-learn and Python's standard library** (`json` and
 - [Avoiding data leakage](https://scikit-learn.org/stable/common_pitfalls.html)
 - [Pipelines and target transformations](https://scikit-learn.org/stable/modules/compose.html)
 
-## Submission
-
-Create a **public** GitHub repository, upload all the files from this folder, and submit the repository URL. Upload the extracted files, not the ZIP archive. Include the AI chat log as required by the assignment. If you use AI for further changes, append those exchanges to the log.
