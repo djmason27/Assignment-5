@@ -1,0 +1,55 @@
+{
+  "scikit_learn_version": "1.8.0",
+  "random_state": 42,
+  "test_size": 0.2,
+  "training_samples": 353,
+  "testing_samples": 89,
+  "features": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "best_test_model": "Support vector regression",
+  "best_validation_model": "Linear regression",
+  "models": {
+    "Linear regression": {
+      "explained_variance": 0.45549251028901483,
+      "mse": 2900.1936284934814,
+      "mae": 42.79409467959994,
+      "r2": 0.4526027629719195,
+      "validation_mse": 3074.142063668879,
+      "best_parameters": {}
+    },
+    "Random forest": {
+      "explained_variance": 0.46760717607180335,
+      "mse": 2820.896627900836,
+      "mae": 43.03440337577584,
+      "r2": 0.46756968056065173,
+      "validation_mse": 3323.4411960950492,
+      "best_parameters": {
+        "max_depth": null,
+        "max_features": 0.7,
+        "min_samples_leaf": 5
+      }
+    },
+    "Support vector regression": {
+      "explained_variance": 0.47969009117729333,
+      "mse": 2812.717851453774,
+      "mae": 41.956471610149144,
+      "r2": 0.4691133842587105,
+      "validation_mse": 3089.9562891210157,
+      "best_parameters": {
+        "regressor__model__C": 1,
+        "regressor__model__epsilon": 0.05,
+        "regressor__model__gamma": 0.01
+      }
+    }
+  }
+}
